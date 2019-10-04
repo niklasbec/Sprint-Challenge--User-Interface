@@ -302,3 +302,26 @@ footer nav a {
 #box10 {
     background-color: dodgerblue;
 }
+
+@media (max-width: 600px) {
+    .container{
+        width: 550px;
+    }
+
+    .contact-media-query{
+        margin-right: 0;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .middle-content .boxes .box {
+        width: 22%;
+    }
+
+    .logo-img {
+        position: relative;
+        left: 180px;
+    }
+}
