@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 70px;
+    position: relative;
+    top: 45px;
+}
+
+.header-img {
+    margin: 60px 0 20px 0;
+}
+
+.logo-img {
+    position: relative;
+    top: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +166,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
