@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTMl is giving a website meaning rather than only visual presentation. For example using section tags instead of divs so screen readers can interpret that this is a new section and not just a div used for styling. This is also important for SEO, google can interpret that an h1 is more important than an h2, so google can make better site previews.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block takes full width, while inline only takes the space it needs, height and width have no effect on inline, while they do have effect on block!
 
 3. What are the 4 areas of the box model?
 
+content (height and width), padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+on the vertical axis!
+
 5. Explain why git is valuable to a team of developers.
+
+git is so important because it enables a lot of developers to work on one project at the same time. Every developer can make his own branch and work on things without hindering other developers, later all the work from single developers can be merged to on whole project. Also git commits works as a backup function, if something goes wrong, or a change is not as good as thought you can always go back to an old commit.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
