@@ -190,6 +190,49 @@ header nav a {
     left: 10px;
 }
 
+.h1-section {
+    margin: 20px 0;
+}
+
+
+.h1-section h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.product-div {
+    /* border: 1px solid black; */
+    width: calc(25% - 5px);
+    text-align: center;
+}
+
+.product-section {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.process {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.process h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.text-boxes div{
+    width: calc(50% - 20px);
+}
+
+.text-boxes {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
 footer {
     width: 100%;
     background: black;
